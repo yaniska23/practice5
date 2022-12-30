@@ -1,0 +1,211 @@
+.maindiv{
+    background-color: cornsilk;
+    width: 100%;
+    height: 500px;
+}
+
+.subtitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 40px;
+   padding: 20px;
+}
+.subtitle div{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    /* color: blue; */
+}
+.menu{
+    /* background-color: red; */
+    height: 50px;
+    width: 50px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.menu div{
+    height: 5px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: black;
+}
+.sidebox{
+    background-color: gray;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 80px;
+    right: 0px;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    transform: translateX(150%);
+    transition: transform 600ms ease-in-out;
+}
+.sidebox a{
+    padding: 35px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 600;
+}
+.design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 110px ;
+    
+}
+.design div{
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: blue;
+}
+.project{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.innerdiv{
+    width: 70%;
+    height: 900px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* margin-top: 90px; */
+   margin: 0px auto;
+}
+.left{
+    /* background-color: blue; */
+    margin-top: 90px;
+}
+.heading{
+display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    width: 100%;
+    height: 350px;
+}
+.photo img{
+    width: 100%;
+    height: 360px;
+}
+.lorem{
+    color: gray;
+   
+}
+.right{
+    /* background-color: brown; */
+    margin-top: 90px;
+}
+.title{
+    margin-top: 160px;
+    margin-left: 90px;
+}
+.name{
+    font-size: 27px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.creative{
+    margin-right: 200px;
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 17px;
+    color: gray;
+}
+.faqs{
+    background-color: cornsilk;
+    width: 100%;
+    height: 450px;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:40px;
+    width: 90%;
+    height: 400px;
+    padding: 40px 0px;
+    margin: 0px auto;
+}
+.info{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    height: 350px;
+    width: 100%;
+}
+.names{
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: blue;
+}
+.texting{
+    color: rgb(131, 128, 128);
+    margin-top: 15px;
+}
+.information div{
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: rgb(131, 128, 128);
+}
+.header div{
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: rgb(131, 128, 128);
+}
+@media(min-width:768px) and (max-width:1024px){
+.menu{
+    display: flex;
+    margin-left: 680px;
+}
+.subtitle{
+    display: none;
+}
+.design div{
+    font-size: 50px;
+    padding-top: 30px;
+}
+.project{
+    font-size: 25px;
+}
+.lorem{
+    font-size: 15px;
+}
+.innerdiv{
+    width: 90%;
+    height: 990px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* margin-top: 90px; */
+   margin: 0px auto;
+}
+.name{
+    font-size: 27px;
+}
+.creative{
+    font-size: 20px;
+    padding: 12px;
+   /* background-color:  aqua; */
+   width: 200px;
+  
+  
+}
+.faqs{
+    margin-top: 60px;
+    
+}
+}
+
